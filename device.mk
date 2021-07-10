@@ -47,3 +47,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+#Enable blurs
+TARGET_SUPPORTS_BLUR := true
