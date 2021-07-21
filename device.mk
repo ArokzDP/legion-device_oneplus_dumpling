@@ -50,6 +50,3 @@ $(call inherit-product, device/oneplus/msm8998-common/common.mk)
 
 #Enable blurs
 TARGET_SUPPORTS_BLUR := true
-
-#Add Gapps
-$(call inherit-product-if-exists, vendor/gapps/pixel-gapps.mk)
